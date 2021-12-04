@@ -17,7 +17,7 @@
     "style": {
       "type": "string",
       "default": "github",
-      "tilte": "Stylesheet",
+      "title": "Stylesheet",
       "description": "Choose from [highlight.js styles.](https://github.com/isagalaev/highlight.js/tree/master/src/styles) ."
     },
     "lineNumber": {
@@ -68,14 +68,13 @@
     }
   },
   "main": "./lib/export-project-html",
-  "version": "3.1.0",
+  "version": "1.0.0",
   "description": "Export entire code project as html files for web publishing",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "export-project-html:export"
   },
-  "repository": "",
-  "license": "",
+  "repository": "https://github.com/emendir/Export-Project-to-HTML---Atom-Plugin.git",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
