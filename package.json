@@ -37,6 +37,14 @@
     "tabWidth": {
       "type": "integer",
       "default": 4
+    },
+    "ignored_extensions": {
+      "type": "array",
+      "default": [".pyc", ".gcode", ".png", ".jpg", ".html", ".blend", ".stl", ".3mf", ".ods", ".pdf", ".wav", ".mp3", ".osp", ".mp4"]
+    },
+    "ignored_dirs": {
+      "type": "array",
+      "default": ["__pycache__", ".git", "build", "dist"]
     }
   },
   "main": "./lib/export-project-html",
