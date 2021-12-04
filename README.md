@@ -1,6 +1,6 @@
-# export-project-html package for Atom
+# export-project-html (Atom Package)
 
-A plugin for the Atom text editor that exports the currently open code project to a static website, in a new folder called _WebPublish_ in the project's root directroy. All code files are exported to html so that when opened in a browser the code is formatted like it would be in Atom, and markdown files are rendered into rich text too.  
+A plugin for the [Atom text editor](https://atom.io/) that exports the currently open code project to a static website, in a new folder called _WebPublish_ in the project's root directroy. All code files are exported to html so that when opened in a browser the code is formatted like it would be in Atom, and markdown files are rendered into rich text too.  
 This plugin is based on the [export-html package by nubohito](https://atom.io/packages/export-html) (for converting code files to html) and Atom's built-in [markdown-preview](https://github.com/atom/markdown-preview) package for converting markdown files to html, many thanks to the developers of those packages.
 
 ## Usage:
