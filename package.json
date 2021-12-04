@@ -1,0 +1,60 @@
+{
+  "name": "export-project-html",
+  "configSchema": {
+    "fontSize": {
+      "type": "integer",
+      "default": 12
+    },
+    "openIn": {
+      "type": "string",
+      "default": "atom",
+      "enum": [
+        "atom",
+        "browser",
+        "none"
+      ]
+    },
+    "style": {
+      "type": "string",
+      "default": "github",
+      "tilte": "Stylesheet",
+      "description": "Choose from [highlight.js styles.](https://github.com/isagalaev/highlight.js/tree/master/src/styles) ."
+    },
+    "lineNumber": {
+      "type": "object",
+      "properties": {
+        "use": {
+          "type": "boolean",
+          "default": true
+        },
+        "styles": {
+          "type": "string",
+          "title": "StyleSheet",
+          "default": "opacity: 0.5;"
+        }
+      }
+    },
+    "tabWidth": {
+      "type": "integer",
+      "default": 4
+    }
+  },
+  "main": "./lib/export-project-html",
+  "version": "3.1.0",
+  "description": "Export entire code project as html files for web publishing",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "export-project-html:export"
+  },
+  "repository": "",
+  "license": "",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.1.0",
+    "underscore-plus": "^1.6.6",
+    "highlight.js": "^8.7.0",
+    "roaster": "^1.2.0"
+  }
+}
