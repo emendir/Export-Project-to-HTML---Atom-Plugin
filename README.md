@@ -5,3 +5,4 @@ This plugin is based on the [export-html package by nubohito](https://atom.io/pa
 
 ## Usage:
 In Atom, press `Ctrl+Shift+P` and then search for "export-project-html" ("xpro" will do). Then press enter, and your project will be converted to html in a folder called _WebPublish_.
+![](Demo.gif)
