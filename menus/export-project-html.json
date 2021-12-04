@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle project-export-project-html",
+        "command": "project-export-project-html:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "export-project-html",
+          "submenu": [
+            {
+              "label": "Export",
+              "command": "export-project-html:export"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
