@@ -1,6 +1,7 @@
+.gitignore
 .DS_Store
 npm-debug.log
 node_modules
-.gitignore
 WebPublish
 WebSite
+*.html

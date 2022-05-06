@@ -65,6 +65,14 @@
         "build",
         "dist"
       ]
+    },
+    "download_external_stylesheets": {
+      "type": "boolean",
+      "default": true
+    },
+    "download_external_scripts": {
+      "type": "boolean",
+      "default": true
     }
   },
   "main": "./lib/export-project-html",
