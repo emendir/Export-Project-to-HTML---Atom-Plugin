@@ -133,11 +133,11 @@
     },
     "download_external_stylesheets": {
       "type": "boolean",
-      "default": true
+      "default": false
     },
     "download_external_scripts": {
       "type": "boolean",
-      "default": true
+      "default": false
     }
   },
   "main": "./lib/export-project-html",
