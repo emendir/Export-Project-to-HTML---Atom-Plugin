@@ -5,3 +5,5 @@ node_modules
 WebPublish
 WebSite
 *.html
+publish.py
+__project__.py
