@@ -1,3 +1,6 @@
+# 2.5.5 (2022-08-19)
+- fixed links to project-internal resources with relative paths
+
 # v2.5.0 (2022-06-05)
 - Only render filetypes specified in the `file_types_to_convert_to_html` setting to html, copy all other files.
 - Enabled remarkable style download-url markdown of the type `[click to download](https://somewhere.com/fil23.txt "download")`.
