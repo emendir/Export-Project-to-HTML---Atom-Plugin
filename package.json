@@ -141,7 +141,7 @@
     }
   },
   "main": "./lib/export-project-html",
-  "version": "2.5.11",
+  "version": "2.5.12",
   "description": "Export entire code project as html files for web publishing",
   "keywords": [],
   "activationCommands": {
