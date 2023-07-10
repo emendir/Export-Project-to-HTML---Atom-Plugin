@@ -1,3 +1,6 @@
+# 2.5.14 (2023-06-05)
+- create log file with broken links in Markdown pages
+
 # 2.5.10 (2023-03-05)
 - now closes inactive TextEditor Panes to avoid skipping the files opened in those editors (better solution coming)
 # 2.5.5 (2022-08-19)

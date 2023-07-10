@@ -138,6 +138,10 @@
     "download_external_scripts": {
       "type": "boolean",
       "default": false
+    },
+    "markdown_broken_url_log_filename": {
+      "type": "string",
+      "default": "broken_markdown_paths.log"
     }
   },
   "main": "./lib/export-project-html",
