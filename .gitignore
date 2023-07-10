@@ -7,3 +7,4 @@ WebSite
 *.html
 publish.py
 __project__.py
+*.log
