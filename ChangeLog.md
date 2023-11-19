@@ -1,3 +1,6 @@
+# 2.5.15 (2023-11-19)
+- added support for downloading resources with HTTP 301 redirects
+
 # 2.5.14 (2023-06-05)
 - create log file with broken links in Markdown pages
 
