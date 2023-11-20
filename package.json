@@ -125,7 +125,17 @@
     "ignored_dirs": {
       "type": "array",
       "default": [
-        ".git", "__pycache__", "build", "dist", "WebPublish", "WebSite", "Website", "*.egg-info", ".mypy_cache", "node_modules", ".log_archive"
+        ".git",
+        "__pycache__",
+        "build",
+        "dist",
+        "WebPublish",
+        "WebSite",
+        "Website",
+        "*.egg-info",
+        ".mypy_cache",
+        "node_modules",
+        ".log_archive"
       ]
     },
     "external_resources": {
@@ -157,7 +167,7 @@
     }
   },
   "main": "./lib/export-project-html",
-  "version": "2.7.0",
+  "version": "2.8.0",
   "description": "Export entire code project as html files for web publishing",
   "keywords": [],
   "activationCommands": {
