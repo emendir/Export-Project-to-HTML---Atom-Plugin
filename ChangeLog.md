@@ -1,3 +1,6 @@
+# 2.5.16 (2023-11-20)
+- fixed issue with markdown codeblocks without specified languages
+
 # 2.5.15 (2023-11-19)
 - added support for downloading resources with HTTP 301 redirects
 
