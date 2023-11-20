@@ -125,19 +125,31 @@
     "ignored_dirs": {
       "type": "array",
       "default": [
-        "__pycache__",
-        ".git",
-        "build",
-        "WebSite"
+        ".git", "__pycache__", "build", "dist", "WebPublish", "WebSite", "Website", "*.egg-info", ".mypy_cache", "node_modules", ".log_archive"
       ]
     },
-    "download_external_stylesheets": {
-      "type": "boolean",
-      "default": false
-    },
-    "download_external_scripts": {
-      "type": "boolean",
-      "default": false
+    "external_resources": {
+      "type": "object",
+      "properties": {
+        "download_external_stylesheets": {
+          "title": "download external stylesheets",
+          "type": "boolean",
+          "default": false
+        },
+        "stylesheets_dir": {
+          "type": "string",
+          "default": "css"
+        },
+        "download_external_scripts": {
+          "title": "download external scripts",
+          "type": "boolean",
+          "default": false
+        },
+        "scripts_dir": {
+          "type": "string",
+          "default": "js"
+        }
+      }
     },
     "markdown_broken_url_log_filename": {
       "type": "string",

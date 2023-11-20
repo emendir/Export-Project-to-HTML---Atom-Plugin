@@ -1,3 +1,6 @@
+# 2.8.0 (2023-11-20)
+- added settings for external resource download path
+
 # 2.7.0 (2023-11-20)
 - fixed issue with markdown codeblocks without specified languages
 
