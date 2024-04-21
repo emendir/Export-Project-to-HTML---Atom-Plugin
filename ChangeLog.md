@@ -1,3 +1,6 @@
+# 2.8.1 (2024-04-21)
+- bugfix when downloading external resources without existing WebPublish tree
+
 # 2.8.0 (2023-11-20)
 - added settings for external resource download path
 
