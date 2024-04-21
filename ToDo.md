@@ -2,5 +2,4 @@
 - docs for markdown_broken_url_log
 - stop markdown renderer from using absolute paths
 - Markdown URL-Checking support tags/hashes
-- move downloaded resources to dedicated folder instead of root directory
 - rename renderer to markdown-renderer
